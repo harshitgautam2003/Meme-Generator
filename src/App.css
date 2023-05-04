@@ -1,0 +1,103 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Karla', sans-serif;
+  font-weight: 800;
+}
+.nav{
+  display: flex;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(64, 2, 70) , rgb(156, 85, 173));
+  justify-content: flex-start;
+  height:5%;
+  color: aliceblue;
+}
+.nav>img{
+  margin: 10px 10px 10px 25px;
+  width: 61.31px;
+  height: 56.22px;
+  align-self: center;
+}
+.inputForm{
+  background-color: rgb(255, 255, 255);
+  margin-top: 0px;
+  width:792px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.input{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding:0px;
+  align-self: center;
+}
+.input>input{
+ height:40px;
+ width: 369px;
+ border: 3px solid #6b696b;
+ box-shadow: 1px 2px #888888;
+ border-radius: 7px;
+ font-family: 'Karla', sans-serif;
+ padding: 4px;
+ text-indent: 10px;
+}
+.inputForm>button{
+  background-image: linear-gradient(to right, rgb(64, 2, 70) , rgb(156, 85, 173));
+  width: 100%;
+  align-self: center;
+  height:45px;
+  border: 3px solid #6b696b;
+  box-shadow: 1px 2px #888888;
+  border-radius: 7px;
+  font-family: 'Karla', sans-serif;
+  padding: 7px;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.ldImg{
+  margin-top: 20px;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.ldImg>img{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  justify-content: center;
+  position: relative;
+}
+.ldImg>h2{
+  position: absolute;
+  font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+.memeTop{
+  align-self: baseline;
+}
+.memeBottom{
+  align-self: last baseline;
+}
